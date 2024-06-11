@@ -1,4 +1,4 @@
-# Offline Anaconda Python Installation on SageMaker Studio or Notebook Instances
+# Offline Anaconda Python Installation on SageMaker Studio or SageMaker Notebook Instances
 
 In this section of the repository we cover how to install a custom version of python3x on SageMaker Studio or SageMaker Notebook Instances with no internet access on Studio JupyterLab or Code Editor or Notebook Instances.
 
