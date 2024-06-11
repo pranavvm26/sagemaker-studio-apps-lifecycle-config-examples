@@ -6,6 +6,8 @@ For this to be successful we require the following,
 1. Any machine with access to internet (this machine does not have to be on the same VPC or network as the SageMaker Interactive Instances - we just need a single machine to download artifacts from the internet to store as a source to then install on the Interactive "air-gapped" Studio or Notebook Instances)
 2. Access to S3
 
+![Offline Conda Python3 Arch](./offline_conda_python3_arch.png)
+
 ## Step 1: Download custom python3 and additional module artifacts and save files to S3
 
 The steps below will typically be run **once** on a machine with internet access to create a source of tarballs/packages which will then be leveraged by "air-gapped" Studio Notebook instances or Notebook Instances to create similar custom python environments offline.
